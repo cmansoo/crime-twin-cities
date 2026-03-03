@@ -2,7 +2,7 @@
 
 This project builds an analysis-ready dataset by **cleaning and combining Minneapolis crime incident records (2017–2023)** across years with **geospatial layers** and **weather data**. The main focus is **data engineering + feature creation** to set up future modeling/visualization work.
 
-> Current notebook focuses on **Minneapolis** (2017–2023). :contentReference[oaicite:0]{index=0}
+> Current notebook focuses on **Minneapolis** (2017–2023).
 
 ---
 
@@ -14,24 +14,24 @@ This project builds an analysis-ready dataset by **cleaning and combining Minnea
 ---
 
 ## Data Sources
-The notebook uses the following sources: :contentReference[oaicite:4]{index=4}  
+The notebook uses the following sources:
 1. **Minneapolis Police Incidents** (Open Data Portal)  
 2. **NOAA Local Climatological Data (LCD)** for weather  
 3. **Hennepin County Police Stations** (ArcGIS Hub)
 
-(Links are listed in the notebook.) :contentReference[oaicite:5]{index=5}
+(Links are listed in the notebook.)
 
 ---
 
 ## What the Notebook Does
 High-level pipeline (as implemented in `process_data_mpls.ipynb`):
 
-1) **Load yearly incident files (2017–2023)** and normalize column names/structures :contentReference[oaicite:6]{index=6}  
-2) **Clean and standardize timestamps** (notably 2018 formatting) :contentReference[oaicite:7]{index=7}  
-3) **Assess data quality** and resolve cross-year inconsistencies :contentReference[oaicite:8]{index=8}  
-4) **Scrape/ingest weather data** (LCD) for potential crime–weather analyses :contentReference[oaicite:9]{index=9}  
-5) **Feature creation** to support future analysis :contentReference[oaicite:10]{index=10}  
-6) **Load yearly geospatial crime files** (GeoJSON) and combine for mapping/spatial joins :contentReference[oaicite:11]{index=11}  
+1) **Load yearly incident files (2017–2023)** and normalize column names/structures 
+2) **Clean and standardize timestamps** (notably 2018 formatting) 
+3) **Assess data quality** and resolve cross-year inconsistencies  
+4) **Scrape/ingest weather data** (LCD) for potential crime–weather analyses 
+5) **Feature creation** to support future analysis 
+6) **Load yearly geospatial crime files** (GeoJSON) and combine for mapping/spatial joins 
 
 ---
 
