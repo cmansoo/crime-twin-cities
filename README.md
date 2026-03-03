@@ -7,9 +7,9 @@ This project builds an analysis-ready dataset by **cleaning and combining Minnea
 ---
 
 ## Project Objectives
-- Standardize annual crime files that have **inconsistent schemas** across years (2017–2018 vs 2019–2023). :contentReference[oaicite:1]{index=1}  
-- Fix data quality issues (e.g., datetime formatting differences in 2018). :contentReference[oaicite:2]{index=2}  
-- Combine disparate sources (crime incidents + geospatial + weather) into a single dataset and create features for downstream analysis. :contentReference[oaicite:3]{index=3}
+- Standardize annual crime files that have **inconsistent schemas** across years (2017–2018 vs 2019–2023).
+- Fix data quality issues (e.g., datetime formatting differences in 2018). 
+- Combine disparate sources (crime incidents + geospatial + weather) into a single dataset and create features for downstream analysis.
 
 ---
 
@@ -36,7 +36,7 @@ High-level pipeline (as implemented in `process_data_mpls.ipynb`):
 ---
 
 ## Unified Schema (Target Columns)
-After harmonizing across years, the notebook aims to produce a consistent structure including: :contentReference[oaicite:12]{index=12}  
+After harmonizing across years, the notebook aims to produce a consistent structure including:
 - case number (unique ID)  
 - public address  
 - reported datetime / begin datetime  
@@ -48,10 +48,10 @@ After harmonizing across years, the notebook aims to produce a consistent struct
 ---
 
 ## Repository Contents
-- `process_data_mpls.ipynb` — main data processing + integration notebook :contentReference[oaicite:13]{index=13}  
+- `process_data_mpls.ipynb` — main data processing + integration notebook 
 - `README.md` — project overview (this file)
 
-> Note: The repository may reference local `data/` paths in the notebook; raw data files are typically not committed to GitHub. :contentReference[oaicite:14]{index=14}
+> Note: The repository may reference local `data/` paths in the notebook; raw data files are typically not committed to GitHub. 
 
 ---
 
