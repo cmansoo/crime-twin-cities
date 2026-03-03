@@ -16,12 +16,12 @@ This project builds an analysis-ready dataset by **cleaning and combining Minnea
 ## Exploratory Plots (from notebook)
 
 ### Example: where violent crimes happened (Twin Cities area)
-![Violent crime locations — example map](plt1.png)
+![Violent crime locations — example map](img/plt1.png)
 
 ### Derived feature: “dangerous” vs “not dangerous” areas
 This plot visualizes the **engineered area-level classification** created in the notebook to label locations as relatively higher-risk (“dangerous”) vs lower-risk (“not dangerous”).
 
-![Dangerous vs not dangerous areas (engineered variable)](plt2.png)
+![Dangerous vs not dangerous areas (engineered variable)](img/plt2.png)
 
 ---
 
